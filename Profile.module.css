@@ -1,0 +1,36 @@
+.post {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+body.dark .post {
+  background-color: #1e293b;
+}
+
+.username {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.content {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.likeBtn {
+  background: #6366f1;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
